@@ -20,3 +20,8 @@ console.log (groceryList.slice(1, 4));
 console.log(groceryList);
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);
+
+// Nested Arrays
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+const target = numberClusters[2][1];
+console.log(target);
